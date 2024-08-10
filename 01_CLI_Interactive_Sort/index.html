@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>Lambda Academy</h1>
+  </header>
+  <main>
+    <input class="input" type="text" placeholder="Write your 10 words and numbers">
+    <button class="save_btn">Save</button>
+    <div>
+      <div>
+        <select name="filters" class="filters">
+          <option value="" selected>Select filter...</option>
+          <option value="alphabetically">Sort by alphabetically</option>
+          <option value="asc">Sort by asc</option>
+          <option value="desc">Sort by desc</option>
+          <option value="desc">Sort words by length</option>
+          <option value="unique_words">Show only unique words</option>
+          <option value="unique_values">Show only the unique values</option>
+        </select>
+      </div>
+      <ol class="list">
+      </ol>
+    </div>
+  </main>
+
+  <script src="interactive.sort.js"></script>
+</body>
+</html>

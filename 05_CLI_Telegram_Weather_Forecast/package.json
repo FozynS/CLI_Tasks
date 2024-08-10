@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "name": "tg-weather-bot",
+  "version": "1.0.0",
+  "description": "Telegram weather bot",
+  "main": "tgWeather.js",
+  "scripts": {
+    "start": "node tgWeather.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "node-telegram-bot-api": "^0.54.0"
+  }
+}

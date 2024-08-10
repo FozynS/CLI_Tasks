@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@inquirer/prompts": "^5.3.8",
+    "axios": "^1.7.3",
+    "dotenv": "^16.4.5",
+    "googleapis": "^140.0.1",
+    "inquirer": "^10.1.8",
+    "open": "^10.1.0"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@inquirer/input": "^2.2.4",
+    "@inquirer/prompts": "^5.3.2"
+  }
+}
